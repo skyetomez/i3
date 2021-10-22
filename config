@@ -239,14 +239,16 @@ smart_borders on
 # This is to take screenshots. 
 bindsym Print exec gnome-screenshot -i
 
+#screen shot
 bindsym $mod+Print exec gnome-screenshot -c -i
 
- 
-exec_always feh --bg-fill /home/gear/Pictures/laptop-people-centered-desktop-pink.png
+# back ground
+exec_always feh --bg-fill /home/gear/Pictures/wallpapers/laptop-people-centered-desktop-pink.png
 
-exec blueman-applet
+exec blueman-applet # bluetooth
 
-exec sudo xrandr --dpi 220
+exec sudo xrandr --dpi 220 #scale window of terminal down for screen
 
 
-exec --no-startup-id compton
+exec --no-startup-id compton # transparency
+exec mpd #mpd start for ncmpcpp

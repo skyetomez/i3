@@ -220,7 +220,6 @@ gaps bottom 5
 smart_borders on
 smart_borders no_gaps
 
-
 # This is to take screenshots. 
 bindsym Print exec spectacle
 

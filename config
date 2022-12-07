@@ -242,7 +242,7 @@ exec_always --no-startup-id $HOME/Scripts/poly_theme_launch.sh
 #exec wal -i -n $HOME/Pictures/wallpapers/purple_custom_3.jpg
 
 #Compositor for Transparency, turn off fade in/out
-exec_always --no-startup-id picom  --experimental-backends 
+exec_always --no-startup-id picom   
 
 #Server for NCMPCPP music app start up
 exec mpd 
